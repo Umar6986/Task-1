@@ -1,0 +1,120 @@
+/* Reset some default styles */
+body,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+p {
+  font-size: 30px;
+  padding: 4px;
+}
+/* Define global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+/* Header styles */
+header {
+  background-color: black;
+  color: rgb(255, 234, 5);
+  text-align: center;
+  padding: 25px;
+  font-size: 27px;
+  height: 70px;
+}
+
+/* Navigation menu styles */
+nav {
+  background-color: #0fbad4;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  width: 95%;
+  margin-left: 28px;
+}
+nav :hover {
+  color: rgb(0, 0, 0);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  gap: 20;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  color: rgb(250, 250, 250);
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Content section styles */
+.content {
+  max-width: 1200px;
+  height: 365px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: crimson;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+.fa {
+  padding: 10px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-google {
+  color: white;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+.fa-youtube {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
